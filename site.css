@@ -1,0 +1,126 @@
+/* miseEnPage.css 
+octobre 2018 */
+
+body {margin: 0px;
+font-family: sans-serif; 
+}
+
+div {padding: 8px}
+
+h1{text-align: center;
+		padding-left: 20px;
+		}
+
+article{
+	border: solid 1px silver;
+	padding-left : 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+table {border: solid 1px black; 
+  border-collapse: collapse; 
+  font-size: medium;
+  empty-cells: show;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+th, td {padding: 5px;
+border: solid 1px silver;
+text-align: right;}
+
+td + td{
+text-align: left;
+}
+
+.lignePaire {
+  background-color: #FFC; /* jaune */
+}
+
+.ligneImpaire {
+  background-color: #CCF; /* gris */
+}
+
+.creneauChoisi {
+  background-color: red; /* rouge */
+}
+
+/* classe pour l'affichage du titre "page de connexion" */
+.textecentre { text-align : center; }
+
+/* identifiant pour le message d'erreur dans le formulaire*/
+#erreur {
+	text-align : center;
+	color : red; 
+}
+
+.haut {/*color: blue;*/
+  /*border: 3px solid cyan;*/
+border-bottom: 2px solid silver;
+  padding: 0px;
+  height: 90px;
+}
+
+.milieu {/*display: table;*/
+	position: relative;
+  padding: 0px;
+}
+
+.hautCentre {/*border: 2px solid red;*/
+  padding: 0px;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 46px;
+  padding-top: 20px;
+/*  height: 66px; */ /* + le padding-top (20) + border rouge deux fois (4) = 90 */
+  height: 70px; /* + le padding-top (20) + border rouge deux fois (4) = 90 */
+}
+
+.hautGauche {float: left;
+top: 0px;
+left: 0px;
+padding: 0px;
+}
+
+.menu {width: 200px;
+  /*display:table-cell;*/
+  position: absolute;
+top: 0px;
+left: 0px;
+border-right: 2px solid silver;
+
+/*  color: #C90; *//* olive */
+/*  border: 2px solid #C90; */
+}
+
+.contenu {
+ position: absolute;
+ left: 210px;
+  width:70%;
+  padding-left: 20px;
+
+}
+
+ul {margin: 0px;
+}
+
+/* AJOUT */
+.menu a {text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {color: red;
+  font-weight: bold;
+}
+
+.menu li {list-style-type: none;
+  padding: 6px;
+  background-color: #DDD; /* gris */
+  margin-bottom: 1px;
+}
+
+
+
